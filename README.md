@@ -4,7 +4,7 @@
 
 Este laboratorio simula un escenario de post-explotación en un entorno virtual controlado. El objetivo es demostrar cómo un atacante puede extraer credenciales almacenadas en una máquina Windows 8.1 utilizando herramientas como Meterpreter y LaZagne, sin que el usuario lo note. Todo el ejercicio se realiza con fines educativos y de concientización en ciberseguridad.
 
-## 🛠️ Herramientas utilizadas
+## Herramientas utilizadas
 
 - Kali Linux (máquina atacante)
 - Windows 8.1 (máquina víctima)
@@ -13,11 +13,11 @@ Este laboratorio simula un escenario de post-explotación en un entorno virtual 
 - msfvenom / msfconsole — generación y manejo de payloads
 - Samba — para compartir archivos entre máquinas virtuales
 
-## 🎯 Objetivo
+##  Objetivo
 
 Mostrar cómo un atacante puede ejecutar herramientas de extracción de credenciales en una máquina Windows comprometida, usando acceso remoto y técnicas silenciosas. El laboratorio permite entender los riesgos y aplicar medidas de defensa en entornos reales.
 
-## 🧪 Instrucciones paso a paso
+##  Instrucciones paso a paso
 
 ### 1. Preparación del entorno
 
