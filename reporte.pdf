@@ -1,0 +1,2 @@
+Resumen de la herramienta utilizada
+LaZagne es una herramienta de post-explotación diseñada para extraer credenciales almacenadas localmente en sistemas Windows, Linux y macOS. Funciona analizando las configuraciones de aplicaciones comunes (navegadores, clientes de correo, bases de datos, etc.) y recuperando contraseñas en texto plano, hashes o tokens. En este laboratorio, se utilizó LaZagne en conjunto con Meterpreter, un payload de Metasploit que permite ejecución remota en la máquina víctima.
