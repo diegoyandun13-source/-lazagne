@@ -1,6 +1,6 @@
-# 🧪 Laboratorio de Ingeniería Social — Extracción de Credenciales en Windows 8.1
+#  Laboratorio de Ingeniería Social — Extracción de Credenciales en Windows 8.1
 
-## 📘 Descripción del laboratorio
+##  Descripción del laboratorio
 
 Este laboratorio simula un escenario de post-explotación en un entorno virtual controlado. El objetivo es demostrar cómo un atacante puede extraer credenciales almacenadas en una máquina Windows 8.1 utilizando herramientas como Meterpreter y LaZagne, sin que el usuario lo note. Todo el ejercicio se realiza con fines educativos y de concientización en ciberseguridad.
 
@@ -26,6 +26,7 @@ Mostrar cómo un atacante puede ejecutar herramientas de extracción de credenci
 
 ### 2. Instalación de dependencias en Kali
 sudo apt update
+
 sudo apt install git python3 python3-pip mingw-w64 -y
 git clone https://github.com/AlessandroZ/LaZagne.git
 cd LaZagne
