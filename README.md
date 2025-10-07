@@ -1,5 +1,9 @@
 #  Laboratorio de Ingeniería Social — Extracción de Credenciales en Windows 8.1
 
+##REALIZADO POR:
+
+NEREA BASTIDAS --- DIEGO YANDUN
+
 ##  Descripción del laboratorio
 
 Este laboratorio simula un escenario de post-explotación en un entorno virtual controlado. El objetivo es demostrar cómo un atacante puede extraer credenciales almacenadas en una máquina Windows 8.1 utilizando herramientas como Meterpreter y LaZagne, sin que el usuario lo note. Todo el ejercicio se realiza con fines educativos y de concientización en ciberseguridad.
